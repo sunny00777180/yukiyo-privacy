@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=ko.html">
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+
+    if (lang.startsWith("en")) {
+      window.location.href = "en.html";
+    } else if (lang.startsWith("ja")) {
+      window.location.href = "ja.html";
+    } else {
+      window.location.href = "ko.html";
+    }
+  </script>
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting to your preferred language version...</p>
+</body>
+</html>
